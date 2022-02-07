@@ -1,0 +1,20 @@
+Object detection = multilabel classification & object localization
+
+Pre-requiste: 
+https://www.coursera.org/learn/advanced-computer-vision-with-tensorflow/supplement/ei2mC/pre-requisite-references
+
+Why use transfer learning?
+Instead of randomly initialized weights we can use the feature of pretrained model weights(upstream task). -> reusable patterns
+Like cats and dogs have ears in pretrained modelvand weights are adjusted according to that. 
+We can use this  as opposed to randomly initialized 
+weigths to train cow and horse as they have similar features .
+https://www.coursera.org/learn/advanced-computer-vision-with-tensorflow/lecture/ZSorH/why-transfer-learning
+
+Must see :https://www.coursera.org/learn/advanced-computer-vision-with-tensorflow/lecture/O5hPR/options-in-transfer-learning
+
+
+The task for which the model is borrowed is called downstream task. 
+
+
+In object deteciton using mnist notebook we took all the mnist images and draw bounding box and place them at random positions in the 75x75 canvas 
+with the label of the box and the label
